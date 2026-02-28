@@ -1,11 +1,11 @@
 # cockpit-docker
 
 This is the [Cockpit](https://cockpit-project.org/) user interface for [docker
-containers](https://docker.io/). 
+containers](https://docker.io/).
 
 ## Technologies
 
- - cockpit-docker communicates to docker through its [REST API](https://docs.docker.com/engine/api/v1.43/).
+ - cockpit-docker communicates to docker through its [REST API](https://docs.docker.com/engine/api/v1.44/).
 
  - This project is based on [cockpit-podman](https://github.com/cockpit-project/cockpit-podman), I ported as much as I could to the docker API, but not everything maps (e.g. pods) and not everything is ported yet.
 
@@ -44,7 +44,7 @@ Set `NODE_ENV=production` if you want to duplicate this behavior.
 
 `yay -Ss cockpit-docker`
 
-OR for Manjaro 
+OR for Manjaro
 
 `pamac install cockpit-docker`
 
